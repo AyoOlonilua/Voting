@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+#registration1 {
+    background-color: blue;
+}
+#vote1 {
+    background-color: blue;
+}
+#status1 {
+    background-color: blue;
+}
+#education1 {
+    background-color: blue;
+}
+#help- {
+    background-color: blue;
+}
+.head{
+    background-image: url(/img/istockphoto-1283508293-612x612.jpg);
+    background-size: cover;
+    height: 700px;
+}
+.head1 {
+    background-image: url(/img/1539131372045.jpg);
+    background-size: cover;
+    height: 1140px;
+}
+.help {
+    background-image: url(/img/istockphoto-1188366363-612x612.jpg);
+    background-size: cover;
+    height: 480px;
+    width: 1200px;
+}
+.votex {
+    background-image: url(/img/vote-now-banner-template-vote-now-ribbon-label-vote-now-sign-vote-now-banner-template-vote-now-ribbon-label-177647368.webp);
+    background-size: cover;
+    height: 520px;
+    width: 1200px;
+}
+/* .edu {
+    background-image: url(/img/why.png);
+    background-size: cover;
+    height: 520px;
+    width: 1200px;
+} */
+.help1 {
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+.welcome {
+    margin-top: 290px;
+}
+.pic {
+    width: 270px;
+}
+.service {
+    width: 750px;
+    border-radius: 10px;
+}
+#yes, #no {
+    display: none;
+  }

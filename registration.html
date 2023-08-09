@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/jquery-3.7.0.js"></script>
+    <script src="js/scripts.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="bootstrap-4.5.3-dist/css/bootstrap.min.css">
+    <title>Voters Registration</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container d-flex">
+                <div class="mt-3 ml-5">
+                    <h6 class="text-primary font-weight-bold">ADROITSOFT</h6>
+                    <h6 class="text-dark font-weight-bold">COMPUTER EDUCATION</h6>
+                </div>
+
+
+                <button class="btn ml-5">
+                    <a href="index.html" class="btn text-primary font-weight-bold">Home
+                    </a>
+                </button>
+                
+                <button class="btn">
+                    <a href="registration.html" id="registration1" class="btn text-white font-weight-bold">Registration
+                    </a>
+                </button>
+
+                <button class="btn">
+                    <a href="vote.html" class="btn text-primary font-weight-bold">Vote Now
+                    </a>
+                </button>
+
+                <button class="btn">
+                    <a href="education.html" class="btn text-primary font-weight-bold">Voters Education
+                    </a>
+                </button>
+
+                <button class="btn">
+                    <a href="status.html" class="btn text-primary font-weight-bold">Voters Status
+                    </a>
+                </button>
+
+                <button class="btn">
+                    <a href="help.html" class="btn text-primary font-weight-bold">Help
+                    </a>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <section>
+        <div class="container p-5">
+            <div class="text-center mt-5">
+                <h4 class="text-primary font-weight-bold">Candidates Registration Page</h4>
+            </div>
+            
+            <div class="head1 bg-primary p-5"> 
+                <form id="">
+                    <div class="p-2">
+                        <h5 class="text-white font-weight-bold container">FILL IN THE FOLLOWING FORM</h5>
+                        <hr class="bg-white ml-3">
+                    </div>
+                    
+                    <div class="container mt-3 text-white font-weight-bold">
+                        <label class="" for="">Candidate Name</label>
+                        <div class="d-flex">
+                            <input type="text" class="form-control w-25" placeholder="Last name" required>
+                            <input type="text" class="form-control w-25 ml-3" placeholder="Middle name" required>
+                            <input type="text" class="form-control w-25 ml-3" placeholder="First name" required>
+                        </div>
+                    </div>
+                    
+                    <div class="ml-3 w-25 mt-3 text-white font-weight-bold">
+                         <label class="" for="">Date of Birth</label>
+                        <input type="date" name="date" class="form-control" id="" required>
+                    </div>
+    
+                    <div class="container mt-3">
+                        <label class="d-block w-25 text-white font-weight-bold" for="gender">Gender</label>
+                        <select class="form-control w-25" id="gender" required>
+                            <option value=""></option>
+                          <option value="female">Female</option>
+                          <option value="male">Male</option>
+                        </select>
+                    </div>
+                    
+                    <div class="container">
+                        <label class="d-block  w-25 text-white font-weight-bold mt-3" for="state">State of Origin</label>
+                        <select id="state" name="" class="form-control w-50" required>
+                        <option value=""></option>
+                        <option value="">Abia</option>
+                        <option value="">Adamawa</option>
+                        <option value="">Akwa Ibom</option>
+                        <option value="">Anambre</option>
+                        <option value="">Bauchi</option>
+                        <option value="">Bayelsa</option>
+                        <option value="">Benue</option>
+                        <option value="">Borno</option>
+                        <option value="">Cross River</option>
+                        <option value="">Delta</option>
+                        <option value="">Ebonyi</option>
+                        <option value="">Edo</option>
+                        <option value="">Ekiti</option>
+                        <option value="">Enugu</option>
+                        <option value="">Gombe</option>
+                        <option value="">Imo</option>
+                        <option value="">Jigawa</option>
+                        <option value="">Kaduna</option>
+                        <option value="">Kano</option>
+                        <option value="">Katsina</option>
+                        <option value="">Kebbi</option>
+                        <option value="">Kogi</option>
+                        <option value="">Kwara</option>
+                        <option value="">Lagos</option>
+                        <option value="">Nasarawa</option>
+                        <option value="">Niger</option>
+                        <option value="">Ogun</option>
+                        <option value="">Ondo</option>
+                        <option value="">Osun</option>
+                        <option value="">Oyo</option>
+                        <option value="">Plateau</option>
+                        <option value="">Rivers</option>
+                        <option value="">Sokoto</option>
+                        <option value="">Taraba</option>
+                        <option value="">Yobe</option>
+                        <option value="">Zamfara</option>
+                        </select>
+                    </div>
+    
+                    <div class="container mt-3 text-white font-weight-bold">
+                        <label class="" for="">National Identification Number</label>
+                        <input type="text" class="form-control w-50" placeholder="Enter NIN" required>
+                    </div>
+    
+                    <div class="container mt-3 text-white font-weight-bold">
+                        <label class="" for="">Passport Photograph</label>
+                        <input type="file" name="" class="form-control  w-50">
+                    </div>
+    
+                    <div class="container mt-3 text-white font-weight-bold">
+                        <label class="" for="">Email address</label>
+                        <input type="email" class="form-control w-50" required>
+                    </div>
+    
+                    <div class="container mt-3 text-white font-weight-bold">
+                        <label class="" for="">Phone Number</label>
+                        <input type="tel" class="form-control w-50">
+                    </div>
+    
+                    <div class="container mt-3 text-white font-weight-bold">
+                        <label class="" for="">Occupation</label>
+                        <input type="text" class="form-control w-50">
+                    </div>
+                    
+                    <button type="button" class="btn mt-5">
+                        <a href="vote.html" class="btn text-primary bg-white font-weight-bold"><h6 class="p-2">SUBMIT</h6>
+                        </a>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+    
+</body>
+</html>
