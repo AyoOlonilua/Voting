@@ -1,4 +1,4 @@
-# Calculator
+# Voting
 By AYO-OLONILUA AYOMIPE
 
 # TECHNOLOGIES USED
@@ -13,7 +13,7 @@ By AYO-OLONILUA AYOMIPE
 
 # Description
 
-It is used for calculating integers i.e Addition, Subtraction, Division, Multiplication etc.
+It is used to register vote online. And also for casting votes online.
 
 # Setup/Installation Requirements
 
