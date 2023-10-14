@@ -1,8 +1,11 @@
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 * {
     font-family: 'Roboto', sans-serif;
+}
+[class*="col-"] {
+    width: 100%;
 }
 #registration1 {
     background-color: blue;
